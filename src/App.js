@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Authentication from './components/authentication'
 import './App.css';
 
