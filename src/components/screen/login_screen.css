@@ -1,0 +1,100 @@
+.Container {
+    display: flex;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.General {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Label-title {
+    font: 600;
+    font-style: normal;
+    font-style: oblique;
+    color: black;
+    font-size: larger;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.Label {
+    font-size: 18px;
+    font-style: oblique;
+    color: black;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.Singin {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 70px;
+}
+
+.Link {
+    font-size: 18;
+    color: blue;
+}
+
+.Input-block {
+    border-radius: 10px;
+    border-width: 0px;
+    padding-left: 10px;
+    margin-top: 80px;
+    font-size: 20px;
+    width: 455px;
+    height: 70px;
+}
+
+.Container-input-name {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+}
+
+.Input-block-name {
+    border-radius: 10px;
+    border-width: 0px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 220px;
+    height: 70px;
+}
+
+.Button {
+    width: 457px;
+    height: 70px;
+    margin-top: 14px;
+}
+
+.Button-link {
+    color: white;
+    margin-top: 20px;
+    padding-left: 100px;
+
+}
+
+.Button-font {
+    font-size: larger;
+    font-weight: 900;
+    color: rgba(77, 77, 77, 0.76);
+    margin-top: 11px;
+    margin-right: 140px;
+    margin-left: 160px;
+}
